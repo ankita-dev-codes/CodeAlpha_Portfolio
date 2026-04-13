@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+
+  <style>
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fa;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #667eea;
+      color: white;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #667eea;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <!-- 👇 ADD YOUR PHOTO HERE -->
+  <img src="IMG_20240604_115618_757.jpg" alt="Profile">
+  <h1>Ankita Parichha</h1>
+  <p>Aspiring Web Developer 🚀</p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am an MCA student passionate about web development and building real-world projects.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <!-- 👇 PROJECT IMAGE -->
+    <img src="Screenshot 2026-04-13 172358.png" class="project-img">
+    <h3>🧮 Calculator</h3>
+    <p>A responsive calculator built using HTML, CSS, and JavaScript that performs basic arithmetic operations with a clean UI.</p>
+    <a href="https://ankita-dev-codes.github.io/CodeAlpha_Calculator/" class="btn">Live Demo</a>
+    <a href="https://github.com/ankita-dev-codes/CodeAlpha_Calculator" class="btn">Source Code</a>
+  </div>
+
+  <div class="card">
+    <!-- 👇 PROJECT IMAGE -->
+    <img src="Screenshot 2026-04-13 210411.png" class="project-img">
+    <h3>🖼️ Image Gallery</h3>
+    <p>Responsive gallery with hover effects.</p>
+    <a href="https://ankita-dev-codes.github.io/CodeAlpha_Gallery/" class="btn">View Project</a>
+  </div>
+
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>GitHub</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: ankitaparichha123@gmail.com</p>
+    
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Ankita | Portfolio</p>
+</footer>
+
+</body>
+</html>
